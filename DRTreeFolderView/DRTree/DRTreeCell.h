@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DRTreeCell.h
 //  DRTreeFolderView
 //
 //  Created by david on 13-12-18.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DRTreeTableView.h"
-#import "TreeTestModel.h"
-@interface ViewController : UIViewController<DRTreeTableViewDelegate>
-
+#import "DRTreeNode.h"
+@interface DRTreeCell : UITableViewCell
+@property (strong,nonatomic)  DRTreeNode *note;
 @end
