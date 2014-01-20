@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630DF0F51862934200E6670F /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630DF0F31862934200E6670F /* close@2x.png */; };
+		630DF0F61862934200E6670F /* open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630DF0F41862934200E6670F /* open@2x.png */; };
 		6390485E1861682000240A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6390485D1861682000240A56 /* Foundation.framework */; };
 		639048601861682000240A56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6390485F1861682000240A56 /* CoreGraphics.framework */; };
 		639048621861682000240A56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639048611861682000240A56 /* UIKit.framework */; };
@@ -23,11 +25,9 @@
 		6390488A1861682100240A56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639048881861682100240A56 /* InfoPlist.strings */; };
 		6390488C1861682100240A56 /* DRTreeFolderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6390488B1861682100240A56 /* DRTreeFolderViewTests.m */; };
 		639048A518616B0E00240A56 /* DRTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048A418616B0E00240A56 /* DRTreeCell.m */; };
-		639048F11861772E00240A56 /* DRTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048F01861772E00240A56 /* DRTreeTableView.m */; };
 		639048F618617A2C00240A56 /* DRTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048F518617A2C00240A56 /* DRTreeNode.m */; };
 		639048F918619FC200240A56 /* TreeTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048F818619FC200240A56 /* TreeTestModel.m */; };
-		639048FD1861C02B00240A56 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639048FB1861C02B00240A56 /* close@2x.png */; };
-		639048FE1861C02B00240A56 /* open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639048FC1861C02B00240A56 /* open@2x.png */; };
+		63CBF49E188CD173002A8DC9 /* DRTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CBF49D188CD173002A8DC9 /* DRTreeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630DF0F31862934200E6670F /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close@2x.png"; path = "DRTree/close@2x.png"; sourceTree = "<group>"; };
+		630DF0F41862934200E6670F /* open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "open@2x.png"; path = "DRTree/open@2x.png"; sourceTree = "<group>"; };
 		6390485A1861682000240A56 /* DRTreeFolderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRTreeFolderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6390485D1861682000240A56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6390485F1861682000240A56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,14 +65,12 @@
 		6390488B1861682100240A56 /* DRTreeFolderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRTreeFolderViewTests.m; sourceTree = "<group>"; };
 		639048A318616B0E00240A56 /* DRTreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRTreeCell.h; path = DRTree/DRTreeCell.h; sourceTree = "<group>"; };
 		639048A418616B0E00240A56 /* DRTreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRTreeCell.m; path = DRTree/DRTreeCell.m; sourceTree = "<group>"; };
-		639048EF1861772E00240A56 /* DRTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRTreeTableView.h; path = DRTree/DRTreeTableView.h; sourceTree = "<group>"; };
-		639048F01861772E00240A56 /* DRTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRTreeTableView.m; path = DRTree/DRTreeTableView.m; sourceTree = "<group>"; };
 		639048F418617A2C00240A56 /* DRTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRTreeNode.h; path = DRTree/DRTreeNode.h; sourceTree = "<group>"; };
 		639048F518617A2C00240A56 /* DRTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRTreeNode.m; path = DRTree/DRTreeNode.m; sourceTree = "<group>"; };
 		639048F718619FC200240A56 /* TreeTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTestModel.h; sourceTree = "<group>"; };
 		639048F818619FC200240A56 /* TreeTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTestModel.m; sourceTree = "<group>"; };
-		639048FB1861C02B00240A56 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
-		639048FC1861C02B00240A56 /* open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open@2x.png"; sourceTree = "<group>"; };
+		63CBF49C188CD173002A8DC9 /* DRTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTreeTableView.h; sourceTree = "<group>"; };
+		63CBF49D188CD173002A8DC9 /* DRTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTreeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,10 +180,10 @@
 				639048FA1861BFEF00240A56 /* image */,
 				639048A318616B0E00240A56 /* DRTreeCell.h */,
 				639048A418616B0E00240A56 /* DRTreeCell.m */,
-				639048EF1861772E00240A56 /* DRTreeTableView.h */,
-				639048F01861772E00240A56 /* DRTreeTableView.m */,
 				639048F418617A2C00240A56 /* DRTreeNode.h */,
 				639048F518617A2C00240A56 /* DRTreeNode.m */,
+				63CBF49C188CD173002A8DC9 /* DRTreeTableView.h */,
+				63CBF49D188CD173002A8DC9 /* DRTreeTableView.m */,
 			);
 			name = tree;
 			sourceTree = "<group>";
@@ -191,8 +191,8 @@
 		639048FA1861BFEF00240A56 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				639048FB1861C02B00240A56 /* close@2x.png */,
-				639048FC1861C02B00240A56 /* open@2x.png */,
+				630DF0F31862934200E6670F /* close@2x.png */,
+				630DF0F41862934200E6670F /* open@2x.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -273,12 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630DF0F51862934200E6670F /* close@2x.png in Resources */,
 				639048741861682000240A56 /* Main_iPad.storyboard in Resources */,
+				630DF0F61862934200E6670F /* open@2x.png in Resources */,
 				639048791861682100240A56 /* Images.xcassets in Resources */,
-				639048FE1861C02B00240A56 /* open@2x.png in Resources */,
 				639048711861682000240A56 /* Main_iPhone.storyboard in Resources */,
 				639048681861682000240A56 /* InfoPlist.strings in Resources */,
-				639048FD1861C02B00240A56 /* close@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				639048771861682100240A56 /* ViewController.m in Sources */,
+				63CBF49E188CD173002A8DC9 /* DRTreeTableView.m in Sources */,
 				639048F618617A2C00240A56 /* DRTreeNode.m in Sources */,
 				639048A518616B0E00240A56 /* DRTreeCell.m in Sources */,
 				639048F918619FC200240A56 /* TreeTestModel.m in Sources */,
-				639048F11861772E00240A56 /* DRTreeTableView.m in Sources */,
 				6390486E1861682000240A56 /* AppDelegate.m in Sources */,
 				6390486A1861682000240A56 /* main.m in Sources */,
 			);
@@ -522,6 +522,7 @@
 				639048911861682100240A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639048921861682100240A56 /* Build configuration list for PBXNativeTarget "DRTreeFolderViewTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				639048941861682100240A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
