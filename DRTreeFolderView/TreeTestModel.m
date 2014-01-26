@@ -20,7 +20,11 @@
 +(DRTreeNode*)createOneNoteWithLevel:(int)level withNoteId:(int)noteID withMaxLevelCount:(int)levelCount{
     DRTreeNode *note = [[DRTreeNode alloc] init];
     note.noteId = noteID;
-    note.noteIsExtend = NO;
+    if (level < 2) {
+        note.noteIsExtend = YES;
+    }else
+        note.noteIsExtend = NO;
+    
     note.noteContentName = [NSString stringWithFormat:@"note%d",level];
     note.noteLevel = level;
     NSMutableArray *childNoteArr = [NSMutableArray array];
