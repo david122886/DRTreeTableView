@@ -197,6 +197,7 @@
 //        
 //    }
     if (noteArr) {
+        self.tableDataArr = [NSMutableArray array];
         [self insertNodeDataArr:noteArr intoTableDataArr:self.tableDataArr];
     }else{
         [self.tableDataArr removeAllObjects];
