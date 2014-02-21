@@ -27,7 +27,7 @@
 		639048A518616B0E00240A56 /* DRTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048A418616B0E00240A56 /* DRTreeCell.m */; };
 		639048F618617A2C00240A56 /* DRTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048F518617A2C00240A56 /* DRTreeNode.m */; };
 		639048F918619FC200240A56 /* TreeTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 639048F818619FC200240A56 /* TreeTestModel.m */; };
-		63C8A26018935DAF00C51FEA /* DRTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8A25F18935DAF00C51FEA /* DRTreeTableView.m */; };
+		63B6C50318B7387A008DFFB3 /* DRTreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6C50218B7387A008DFFB3 /* DRTreeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		639048F518617A2C00240A56 /* DRTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRTreeNode.m; path = DRTree/DRTreeNode.m; sourceTree = "<group>"; };
 		639048F718619FC200240A56 /* TreeTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTestModel.h; sourceTree = "<group>"; };
 		639048F818619FC200240A56 /* TreeTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTestModel.m; sourceTree = "<group>"; };
-		63C8A25E18935DAF00C51FEA /* DRTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTreeTableView.h; sourceTree = "<group>"; };
-		63C8A25F18935DAF00C51FEA /* DRTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTreeTableView.m; sourceTree = "<group>"; };
+		63B6C50118B7387A008DFFB3 /* DRTreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTreeTableView.h; sourceTree = "<group>"; };
+		63B6C50218B7387A008DFFB3 /* DRTreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTreeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,8 +182,8 @@
 				639048A418616B0E00240A56 /* DRTreeCell.m */,
 				639048F418617A2C00240A56 /* DRTreeNode.h */,
 				639048F518617A2C00240A56 /* DRTreeNode.m */,
-				63C8A25E18935DAF00C51FEA /* DRTreeTableView.h */,
-				63C8A25F18935DAF00C51FEA /* DRTreeTableView.m */,
+				63B6C50118B7387A008DFFB3 /* DRTreeTableView.h */,
+				63B6C50218B7387A008DFFB3 /* DRTreeTableView.m */,
 			);
 			name = tree;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639048771861682100240A56 /* ViewController.m in Sources */,
-				63C8A26018935DAF00C51FEA /* DRTreeTableView.m in Sources */,
+				63B6C50318B7387A008DFFB3 /* DRTreeTableView.m in Sources */,
 				639048F618617A2C00240A56 /* DRTreeNode.m in Sources */,
 				639048A518616B0E00240A56 /* DRTreeCell.m in Sources */,
 				639048F918619FC200240A56 /* TreeTestModel.m in Sources */,
